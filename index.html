@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Home Java</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+</head>
+<body>
+	<div class="container-main container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="">Java</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">JavaScript</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<header class="header">
+
+		</header>
+		<div class="row">
+			<div class="col-3 bg-dark" ></div>
+			<div class="col-9">
+				<h1>Sintaxis en Java</h1>
+				<p>Todo lenguaje de programacion posee reglas propias para escribirse correctamente, imagina que es un idioma y como todo idioma tiene sus reglas gramaticales. A esto le llamamos sintaxis del lenguaje</p>
+				<h2>Variables en java </h2>
+				<p>Todo lenguaje de programacion utiliza variables, estas son espacios de memorias reservados para guardar informacion. Esta informacion tiene asociada un tipo de dato. Es decir, cada variable guarda exclusivamente un tipo de dato.</p>
+				<p>En Java existen distintos tipos de variables que pueden agruparse en dos categorias principales:</p>
+				<ol>
+					<li>Primitivos: Proveidos por el compilador</li>
+					<li>Abstractos: Creados por el programador</li>
+				</ol>
+
+				<table class="table">
+					<thead class="bg-dark text-light">
+						<tr>
+							<th>Sub-categoria</th>
+							<th>Tipo</th>
+							<th>Longitud</th>
+							<th>Rango</th>
+							<th>Inicializacion</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Logico</th>
+							<td>boolean</td>
+							<td>1 byte</td>
+							<td></td>
+							<td>False</td>
+						</tr>
+						<tr>
+							<th scope="row">Textual</th>
+							<td>char</td>
+							<td>2 bytes</td>
+							<td>Comprende el código ASCII (0..255)	</td>
+							<td></td>
+						</tr>
+						<tr>
+							<th scope="row">Integral</th>
+							<td>byte</td>
+							<td>1 byte</td>
+							<td>-128...127</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<th scope="row"></th>
+							<td>short</td>
+							<td>2 bytes</td>
+							<td>-32678...32677</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<th scope="row"></th>
+							<td>int</td>
+							<td>4 bytes</td>
+							<td>-2.147.483.648 y 2.147.483.647</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<th scope="row"></th>
+							<td>long</td>
+							<td>8 bytes</td>
+							<td>	-9.223.372.036.854.775.808 y 9.223.372.036.854.775.807</td>
+							<td>0L</td>
+						</tr>
+						<tr>
+							<th scope="row">Punto Flotante</th>
+							<td>float</td>
+							<td>4 bytes</td>
+							<td>	(6 y 7 cifras decimales equivalentes)
+							De -3.402823E38 a -1.401298E-45 y de 1.401298E-45 a 3.402823E38</td>
+							<td>0.0F</td>
+						</tr>
+						<tr>
+							<th scope="row"></th>
+							<td>double</td>
+							<td>8 bytes</td>
+							<td>	(15 cifras decimales equivalentes).
+								De -1.79769313486232E308 a
+							-4.94065645841247E-324 y de 4.94065645841247E-324 a 1.79769313486232E308</td>
+							<td>0.0D</td>
+						</tr>
+					</tbody>
+				</table>
+				<h4>Definicion de Variables:</h4>
+				<p>Para definir una variable en Java primero se coloca el tipo de dato seguido del nombre de la variable; la linea debe cerrar con un punto y coma ";":</p>
+				<p>> double numero;</p>
+				<br>
+				<p>Se pueden definir a la vez varias variables de un mismo tipo separando sus nombre con una coma ",":</p>
+				<p>> boolean unaVariable, otraVariable, terceraVariable; </p>
+				<br>
+				<p>Tambien se puede inicializar una variable al momento de su definicion:</p>
+				<p>> int numero1 = 10;</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
