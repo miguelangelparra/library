@@ -1,0 +1,22 @@
+Crear proyecto git:
+Entrar a git bash
+mkdir <nombre carpeta> -> Crear carpeta
+cd <nombre-carpeta> -> entrar en carpeta
+git init -> inicializa el repositorio local 
+git ls -a -> confirmar que la carpeta git a sido creada .
+git status -> Ver el estado del repositorio
+vim index.html -> crear un documento html 
+escribir algun texto
+Luego de modificado el archivo
+
+git add index.html -> agrega archivo especifico a la lista de cambios
+git add . -> agregar todos los archivos modificados
+git commit -> 
+git commit -m "mensajes del commit" -> agregar mensaje de detalle a la modificacion y prepara archivos para ser enviados
+
+
+
+
+
+
+

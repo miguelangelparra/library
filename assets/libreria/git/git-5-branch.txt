@@ -1,0 +1,15 @@
+git branch  -> Muestra las ramas existentes
+
+git branch <nombre-rama> -> Crea una rama nueva
+
+git checkout <nombre-rama> -> Cambia a una rama 
+
+git checkout -b <nombre-rama> -> Crea rama y cambia directamente a esta.
+
+git branch  -m <nombre-viejo> <nombre-nuevo> -> Cambia el nombre a la rama
+
+git branch -d <nombre-rama> -> Elimina la rama 
+
+git branch -h -> Ayuda del branch
+
+

@@ -1,0 +1,22 @@
+Instalar Git 
+
+
+*Windows
+entrar a : https://gitforwindows.org/
+download
+ejecutar archivo descargado
+instalar
+
+
+*Linux
+En terminal : 
+utilizar el gestor de paquetes
+
+apt-get install git
+o 
+pacman -S git 
+
+*Mac
+En terminal 
+git 
+

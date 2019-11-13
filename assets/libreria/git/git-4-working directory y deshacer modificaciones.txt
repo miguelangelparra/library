@@ -1,0 +1,51 @@
+Working Directory 
+
+git log -> Visualiza commits
+git log --oneline -> visualiza commit por linea
+git log --oneline | cat -> visualiza commit por linea sin salir de pantalla
+git log --oneline --decorate --> agrega la visualizacion del puntero 
+
+git status -> Visualiza el estado del repositorio.
+
+
+git diff --> Visualiza una lista de modificaciones
+
+Stage -> Es un area temporal, es un area en el que estan los archivos entre que los modificamos y los agregamos al repositorio a traves del commit
+
+git commit --amend  --> revierte un commit para poder modificarlo antes de pushear
+
+deshacer modificaciones:
+
+git checkout -- <nombre del archivo> --> Para deshacer una modificacion
+
+Si el archivo ya esta en el stage:
+git reset HEAD <nombre de archivo> --> resetea el stage
+luego: git checkout -- <nombre de archivo> --> deshacer la modificacion
+
+
+
+Deshacer commit:
+
+git reset <hash del commit> --> elimina el commit 
+git checkout -- <nombre del archivo> --> deshacer la modificacion
+
+git reset --hard <hash del commit> elimina el commit y los cambios del stage
+
+git reset --soft <hash del commit> elimina el commit y deja los cambios en el stage. 
+
+git reset es un comando destructivo!
+
+
+Revertir commit:
+
+git diff <hash commit 1> <hash commit2> --> muestra diferencia entre dos commit 
+
+git diff HEAD-1 el commit anterior --> hace referencia al commit anterior 
+
+git revert HEAD --> revierte los cambios del commit 
+
+{git revert --no-commit HEAD 
+git revert --no-commit HEAD-1
+git revert --continue } --> Esta combinacion permite que el revert se haga en un solo commit nuevo. 
+
+
