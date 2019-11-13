@@ -13,3 +13,9 @@ git branch -d <nombre-rama> -> Elimina la rama
 git branch -h -> Ayuda del branch
 
 
+
+Formas de trabajo: 
+Workflow Feature 
+Se recomienda hacer una rama por cada feature y un commit por cada modificacion concreta. 
+luego que el codigo del feature este limpio se realiza una unificacion con la rama master, haciendo un merge. 
+

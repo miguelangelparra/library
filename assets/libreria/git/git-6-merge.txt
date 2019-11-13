@@ -1,0 +1,5 @@
+Merge:
+Fusion de ramas
+
+git log --oneline -- decorate --all --graph   --> se visualizan todos los commits y se grafican las ramas
+

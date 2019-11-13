@@ -4,6 +4,8 @@ git log -> Visualiza commits
 git log --oneline -> visualiza commit por linea
 git log --oneline | cat -> visualiza commit por linea sin salir de pantalla
 git log --oneline --decorate --> agrega la visualizacion del puntero 
+git log --oneline --decorate --all --> para visualizar todos los commits que se tienen 
+git log --oneline --decorate --all --graph --> todos los commits se vizualizan y se grafica el arbol 
 
 git status -> Visualiza el estado del repositorio.
 
