@@ -1,0 +1,46 @@
+{
+  "categoria": [
+    {
+      "titulo_categoria": "backend",
+      "lenguajes": [
+        {
+          "titulo_lenguaje": "java",
+          "temas": [
+            {
+              "titulo_tema": "variables",
+              "articulos": [
+                {
+                  "titulo_articulo": "Strings",
+                  "descripcion": "Asi se hacen los Strings"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titulo_lenguaje": "python",
+          "temas": [
+            {
+              "titulo_tema": "variables",
+              "articulos": [
+                {
+                  "titulo_articulo": "variables Numericas",
+                  "descripcion": "Asi son las variables numericas"
+                }
+              ]
+            },
+            {
+              "titulo_tema": "Control de Flujo",
+              "articulos": [
+                {
+                  "titulo_articulo": "For",
+                  "descripcion": "El for se hace asi"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
