@@ -1,27 +1,23 @@
 import React from "react"
+import { BrowserRouter, Route } from "react-router-dom"
 import { Container, Row, Col } from 'react-bootstrap'
-import NavBar from "../components/NavBar"
+import Header from "../components/header/Header"
 import Home from "./Home"
+import Lenguaje from "./Lenguaje"
 import mock from "../mock/biblioteca.json"
 
 
 const Layout = () => {
 
   return (
-    <Container>
-      <NavBar></NavBar>
-      <Row>
-        <Col xs={2}>
-<ul>
-  {mock.categoria[0].lenguajes.map((x)=><li>{x.titulo_lenguaje}</li>)}
-</ul>
-        </Col>
-        <Col xs={10}>
- 
-         <Home />
-        </Col>
-
+    <Container fluid>
+      <Row >
+        <Header />
       </Row>
+      <BrowserRouter>
+        <Route exact path="/" component={Home}></Route>
+        <Route exact path="/:idCategoria/:idLenguaje" component={Lenguaje}></Route>
+      </BrowserRouter>
     </Container>
   )
 }

@@ -1,16 +1,16 @@
 {
-  "categoria": [
+  "categorias": [
     {
-      "titulo_categoria": "backend",
+      "categoria": "backend",
       "lenguajes": [
         {
-          "titulo_lenguaje": "java",
+          "lenguaje": "java",
           "temas": [
             {
-              "titulo_tema": "variables",
+              "tema": "variables",
               "articulos": [
                 {
-                  "titulo_articulo": "Strings",
+                  "articulo": "Strings",
                   "descripcion": "Asi se hacen los Strings"
                 }
               ]
@@ -18,22 +18,64 @@
           ]
         },
         {
-          "titulo_lenguaje": "python",
+          "lenguaje": "python",
           "temas": [
             {
-              "titulo_tema": "variables",
+              "tema": "variables",
               "articulos": [
                 {
-                  "titulo_articulo": "variables Numericas",
+                  "articulo": "variables Numericas",
                   "descripcion": "Asi son las variables numericas"
                 }
               ]
             },
             {
-              "titulo_tema": "Control de Flujo",
+              "tema": "Control de Flujo",
               "articulos": [
                 {
-                  "titulo_articulo": "For",
+                  "articulo": "For",
+                  "descripcion": "El for se hace asi"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoria": "backend",
+      "lenguajes": [
+        {
+          "lenguaje": "java",
+          "temas": [
+            {
+              "tema": "variables",
+              "articulos": [
+                {
+                  "articulo": "Strings",
+                  "descripcion": "Asi se hacen los Strings"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lenguaje": "python",
+          "temas": [
+            {
+              "tema": "variables",
+              "articulos": [
+                {
+                  "articulo": "variables Numericas",
+                  "descripcion": "Asi son las variables numericas"
+                }
+              ]
+            },
+            {
+              "tema": "Control de Flujo",
+              "articulos": [
+                {
+                  "articulo": "For",
                   "descripcion": "El for se hace asi"
                 }
               ]
