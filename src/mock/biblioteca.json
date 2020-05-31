@@ -43,31 +43,21 @@
       ]
     },
     {
-      "categoria": "backend",
+      "categoria": "Frontend",
       "lenguajes": [
         {
-          "lenguaje": "java",
+          "lenguaje": "JavaScript",
           "temas": [
             {
-              "tema": "variables",
+              "tema": "Variables",
               "articulos": [
                 {
-                  "articulo": "Strings",
+                  "articulo": "Declaracion de Variables ",
                   "descripcion": "Asi se hacen los Strings"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "lenguaje": "python",
-          "temas": [
-            {
-              "tema": "variables",
-              "articulos": [
+                },
                 {
-                  "articulo": "variables Numericas",
-                  "descripcion": "Asi son las variables numericas"
+                  "articulo": "Scope",
+                  "descripcion": "Las variables tienen un alcance"
                 }
               ]
             },
@@ -75,8 +65,35 @@
               "tema": "Control de Flujo",
               "articulos": [
                 {
-                  "articulo": "For",
-                  "descripcion": "El for se hace asi"
+                  "articulo": "Ciclo For  ",
+                  "descripcion": "El ciclo for se escribe: for(let i = 0 ; i=>0; i++){ // Cuerpo de la iteracion}"
+                },
+                {
+                  "articulo": "Ciclo While",
+                  "descripcion": "El While es Asi, da vueltas y vueltas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lenguaje": "CSS",
+          "temas": [
+            {
+              "tema": "Selectores",
+              "articulos": [
+                {
+                  "articulo": "Los Tipos de selectores",
+                  "descripcion": "Asi son los selectores Posta del Css"
+                }
+              ]
+            },
+            {
+              "tema": "Responsividad",
+              "articulos": [
+                {
+                  "articulo": "Los Media Query",
+                  "descripcion": "Los Media Query Son asi ... se declara una variable que que serà disparada por el ancho o el largo de la pantalla "
                 }
               ]
             }

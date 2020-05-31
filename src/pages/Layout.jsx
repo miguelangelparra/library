@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Route } from "react-router-dom"
+import { BrowserRouter, Route,Switch } from "react-router-dom"
 import { Container, Row, Col } from 'react-bootstrap'
 import Header from "../components/header/Header"
 import Home from "./Home"
@@ -15,8 +15,10 @@ const Layout = () => {
         <Header />
       </Row>
       <BrowserRouter>
+      <Switch>
         <Route exact path="/" component={Home}></Route>
-        <Route exact path="/:idCategoria/:idLenguaje" component={Lenguaje}></Route>
+        <Route  path="/:idCategoria/:idLenguaje" component={Lenguaje}></Route>
+        </Switch>
       </BrowserRouter>
     </Container>
   )
