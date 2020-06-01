@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+}
+h1,h2,h3,h4,h5,h6{
+  color:whitesmoke
+}
+.card{
+  background-color: grey;
+}
+.card-header{
+  background-color: rgb(19, 41, 41);
+}
+p{
+  color: white
+}
+.btn{
+  background-color: rgb(19, 41, 41);
+}
+
+a{
+  color: rgb(38, 138, 138);
+}

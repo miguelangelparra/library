@@ -12,7 +12,7 @@ return(
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#features">Home</Nav.Link>
+      <Nav.Link href="/">Home</Nav.Link>
 
       {mock.categorias.map((categoria)=>
            <NavDropdown title={categoria.categoria} id={`collasible-nav-dropdown${categoria.categoria}`}>
@@ -26,9 +26,6 @@ return(
     </Nav>
     <Nav>
       <Nav.Link href="/login">Login</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>)
